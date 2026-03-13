@@ -16,7 +16,7 @@ const TransactionDetail: React.FC = () => {
         (async () => {
             try {
                 setLoading(true);
-                const { data } = await getTransaction(reference);
+                const { data } = await getTransaction(reference!);
                 setTx(data);
             } catch (error) {
                 console.log(error);

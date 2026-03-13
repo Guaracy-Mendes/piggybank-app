@@ -23,25 +23,3 @@ module.exports = {
         },
     },
 };
-
-
-theme: {
-  extend: {
-    colors: {
-      primary: {
-        50: '#f0fdf4',
-        500: '#10b981',
-        600: '#059669',
-        700: '#047857'
-      },
-      accent: { 500: '#f59e0b' },
-      neutral: {
-        900: '#0f172a',
-        50: '#f1f5f9'
-      }
-    },
-    borderRadius: {
-      '2xl': '16px'
-    }
-  }
-}
