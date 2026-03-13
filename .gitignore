@@ -1,0 +1,8 @@
+templates
+boilerplate
+node_modules
+dist
+coverage
+*.log
+.env
+PigBank_Fintech_App_Requirements.md
